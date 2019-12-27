@@ -1,0 +1,312 @@
+$causes_text: #1eacc7
+$red_arrow: #ff5656
+$blue_arrow: #1ca8c3
+
+
+
+@mixin flex
+  display: flex
+  justify-content: center
+  align-items: center
+body
+  
+  margin: 0
+  padding: 0
+
+header nav
+  height: 51px
+  background-color: #212121
+
+ul
+  list-style: none
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 13.5px 70px
+
+header
+  a
+    color: #ffffff
+    font-family: Roboto
+    font-size: 15px
+    font-weight: 300
+
+    &:hover
+      text-decoration: none
+      transition: 0.7s
+
+  li
+    border-right: 2px dotted black
+    padding-right: 28px
+
+.logo
+  height: 84px
+  background-color: rgba(0, 0, 0, 0.6)
+
+.logo_img
+  padding-top: 16px
+
+.logo_title
+  opacity: 0.5
+  color: #ffffff
+  font-family: "Roboto"
+  font-size: 13px
+  font-weight: 400
+  max-width: 100%
+
+.logo_tp
+  color: #ffffff
+  font-family: Roboto
+  font-size: 12px
+  font-weight: 300
+  margin-top: 15px
+
+.logo_tpp
+  color: #ffffff
+  font-family: Roboto
+  font-size: 19px
+  font-weight: 400
+  text-transform: uppercase
+
+.butt
+  width: 172px
+  height: 46px
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12)
+  border: none
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+  margin-top: 19px
+
+.logo_txt
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+  color: #ffffff
+  font-family: Roboto
+  font-size: 14px
+  font-weight: 400
+  text-transform: uppercase
+
+.logo_section
+  background: url('../img/bg/bg_header.png') center (center / cover) no-repeat
+  min-height: 748px
+
+.one_section_title
+  margin-top: 67px
+  color: #ffffff
+  font-family: "Roboto - Black"
+  font-size: 60px
+  font-weight: 700
+  text-transform: uppercase
+  text-align: center
+
+.one_section_h1 
+  color: #ffffff
+  font-family: "Roboto - Black"
+  font-size: 36px
+  font-weight: 400
+  text-transform: uppercase
+  text-align: center
+  position: relative
+  bottom: 16px
+
+.one_section_text
+  text-align: center
+  color: #ffffff
+  font-family: Roboto
+  font-size: 18px
+  font-weight: 400
+
+.butt2
+  display: block
+  margin: 0 auto
+  width: 172px
+  height: 46px
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12)
+  border: none
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+  margin-top: 118px
+
+.butt_txt
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+  color: #ffffff
+  font-family: Roboto
+  font-size: 14px
+  font-weight: 400
+  text-transform: uppercase
+
+.causes
+  min-height: 900px
+
+.causes_text
+  display: block
+  color: #ffffff
+  font-family: "Roboto - Thin"
+  font-size: 11px
+  font-weight: 400
+  text-transform: uppercase
+
+.butt_causes
+  width: 112px
+  height: 24px
+  background-color: #000000
+  border: none
+  margin-top: 70px
+
+.causes_text_txt
+  color: #222222
+  font-family: Roboto
+  font-size: 38px
+  font-weight: 700
+  text-transform: uppercase
+  text-align: center
+  margin-top: 38px
+
+.causes_h1
+  color: $causes_text
+  font-family: "Roboto - Regular"
+  font-size: 17px
+  font-weight: 400
+
+.causes_h3
+  font-family: "Roboto Light"
+  font-weight: 300
+
+.causes_img
+  display: flex
+  justify-content: center
+  align-items: center
+
+    
+
+
+.causes_txt
+  width: 341px
+  margin-left: 46px
+
+.col-md-6
+  margin-top: 40px
+  display: flex
+  justify-content: center
+  align-items: center
+
+.cau1
+  position: relative
+  left: 4px
+
+.cau2
+  position: relative
+  right: 7px
+
+.cau3
+  position: relative
+  left: 8px
+
+.cau4
+  position: relative
+  right: 15px
+
+.cau5
+  position: relative
+  left: 55px
+
+.cau6
+  position: relative
+  left: 105px
+.uber
+  min-height: 864px
+  padding: 48px 0px 80px 0px
+  background: url('../img/bg/mobile.png') center center/cover no-repeat
+.but
+  text-align: center
+.uber_txt
+  margin-top: 38px
+.causes_text_little
+  color: #222222
+  font-family: Roboto
+  font-size: 17px
+  font-weight: 400
+  text-align: center
+  margin-top: 19px
+.uber_map
+  background: url('../img/little_bg/map.png') center center/cover
+  height: 280px
+  @include flex
+  width: 320px
+  margin-top: 32px
+
+
+.uber_map_text
+  width: 267px
+  text-align: center
+  display: block
+  color: #ffffff
+  font-family: Roboto
+  font-size: 24px
+  font-weight: 400
+  text-transform: uppercase
+.uber_map2
+  background: url('../img/little_bg/map_2.png') center center/cover
+  height: 280px
+  @include flex
+  width: 320px
+  margin-top: 32px
+.uber_map3
+  background: url('../img/little_bg/map_3.png') center center/cover
+  height: 280px
+  @include flex
+  width: 320px
+  margin-top: 32px
+.uber_map4
+  background: url('../img/little_bg/map_4.png') center center/cover
+  height: 280px
+  @include flex
+  width: 320px
+  margin-top: 19px
+.uber_map5
+  background: url('../img/little_bg/map_5.png') center center/cover
+  height: 280px
+  @include flex
+  width: 320px
+  margin-top: 19px
+.uber_map6
+  background: url('../img/little_bg/map_6.png') center center/cover
+  height: 280px
+  @include flex
+  width: 320px
+  margin-top: 19px
+.uber_plus
+  padding-top: 167px
+  position: relative
+  right: 136px
+.uber
+  .row
+    margin: 0 10px
+
+.car
+  min-height: 896px
+  background: url('../img/bg/car_bg.png') center center/cover no-repeat
+.car_butt
+  width: 112px
+  height: 24px
+  background-color: #ffffff
+  display: block
+  margin: 0 auto
+  color: #070716
+  font-family: "Roboto - Thin"
+  font-size: 11px
+  font-weight: 400
+  text-transform: uppercase
+.car_butt_div
+  padding-top: 56px
+.car_h1
+  display: inline-block
+  margin: 0 auto
+  color: #ffffff
+  font-family: Roboto
+  font-size: 38px
+  font-weight: 700
+  text-transform: uppercase
+ 
+
+
+
+
+

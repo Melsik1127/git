@@ -1,0 +1,267 @@
+
+@media (max-width: 1200px) {
+.uber_map, .uber_map2, .uber_map3, .uber_map4,.uber_map5, .uber_map6 {
+	display: flex;
+	width: 220px;
+}
+.uber_plus {
+  padding-top: 167px;
+  position: relative;
+  right: 106px; }
+  .causes_text_txt {
+  	font-size: 33px;
+
+  }
+  .cau1 {
+  position: absolute;
+  left: 0px; }
+
+.cau2 {
+  position: absolute;
+  right: -8px; }
+
+.cau3 {
+  position: absolute;
+  left: 0px;  }
+
+.cau4 {
+  position: absolute;
+  right: 0px; }
+
+.cau5 {
+  position: absolute;
+  left: 0px; }
+
+.cau6 {
+  position: relative;
+  left: -16px; }
+.cau0 {
+}
+.cau01 {
+	position: relative;
+  left: 20px;
+}
+}
+@media (width: 1200px) {
+	.cau5 {
+  position: absolute;
+  left: 47px; }
+
+.cau6 {
+  position: relative;
+  left: 120px; }
+}
+@media (max-width: 575px) {
+	.logo_tpp, .logo_tp {
+		position: relative;
+		bottom: 40px;
+	}
+	.butt {
+		display: block;
+		margin: 0 auto;
+	}
+	
+	
+}
+
+
+
+@media (max-width: 992px) {
+  .causes_text_txt {
+font-size: 20px;
+  }
+  .uber_map, .uber_map2, .uber_map3, .uber_map4,.uber_map5, .uber_map6 {
+	display: flex;
+	width: 200px;
+}
+.uber_plus {
+  padding-top: 167px;
+  position: relative;
+  right: 96px; }
+
+
+  .cau1 {
+  position: absolute;
+  left: 6px; }
+
+.cau2 {
+  position: absolute;
+  right: -32px; }
+
+.cau3 {
+  position: absolute;
+  left: 15px;  }
+
+.cau4 {
+  position: absolute;
+  right: -24px; }
+
+.cau5 {
+  position: absolute;
+  left: 21px; }
+
+.cau6 {
+  position: relative;
+  left: 16px; }
+.cau0 {
+
+}
+.cau01 {
+	position: relative;
+  left: 40px;
+}
+
+.causes_h1 {
+	font-size: 13px;
+}
+.causes_h3 {
+	font-size: 10px;
+}
+.caus_img {
+	width: 70px;
+}
+.causes_txt {
+	margin-left: 16px;
+	width: 301px;
+}
+.causes {
+	min-height: 650px;
+}
+
+
+
+}
+@media (width: 992px) {
+	.cau5 {
+  position: absolute;
+  left: 70px; }
+
+.cau6 {
+  position: relative;
+  left: 176px; }
+}
+
+@media (max-width: 768px) {
+	.butt {
+		  width: 102px;
+  		  height: 26px;
+	}
+	.logo_txt {
+		  font-size: 9px;
+		  vertical-align: center;
+	}
+	.logo_title {
+		  font-size: 8px;
+	}
+	.logo_img {
+		width: 195px;
+	}
+	.one_section_text {
+		font-size: 14px;
+	}
+	.causes_txt {
+	margin-left: 16px;
+	width: 201px;
+}
+	.cau1 {
+		position: relative;
+  		left: 17px;
+   }
+
+.cau2 {
+  position: absolute;
+  right: -20px; }
+
+.cau3 {
+  position: absolute;
+  left: 18px;  }
+
+.cau4 {
+  position: absolute;
+  right: -19px; }
+
+.cau5 {
+  position: absolute;
+  left: 17px; }
+
+.cau6 {
+  position: relative;
+  left: 16px; }
+.cau0 {
+position: relative;
+  left: 15px;
+}
+.cau01 {
+	position: relative;
+  left: 150px;
+}
+
+
+
+.uber_map, .uber_map2, .uber_map3, .uber_map4,.uber_map5, .uber_map6 {
+	display: flex;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.h1f {
+		font-size: 10px;
+	}
+.h2f {
+		font-size: 7px;
+	}
+.imgf {
+	width: 24px;
+}
+
+}
+
+@media (width: 768px) {
+.cau5 {
+  	position: absolute;
+  	left: 65px; }
+
+.cau6 {
+ 	position: relative;
+ 	left: 146px; }
+.cau01 {
+	position: relative;
+	left: 25px; 
+  }
+}
+@media (max-width: 576px) {
+	.cau1 {
+  position: absolute;
+  left: 2px; }
+
+.cau2 {
+  position: absolute;
+  right: -3px; }
+
+.cau3 {
+  position: absolute;
+  left: 2.5px;  }
+
+.cau4 {
+  position: relative;
+  right: -2px; }
+
+.cau5 {
+  position: absolute;
+  left: 17px; }
+
+.cau6 {
+  position: relative;
+  left: 16px; }
+.cau0 {
+position: relative;
+  left: 4px;
+}
+.cau01 {
+	position: relative;
+  left: 3px;
+}
+}
+
+
+
